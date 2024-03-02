@@ -1,0 +1,25 @@
+h1{
+    text-align: center;
+    background-color: darkgoldenrod;
+}
+h2{
+    text-align: center;
+    background-color: rgba(184, 135, 11, 0.692);
+}
+h3{
+    background-color: rgba(184, 135, 11, 0.541);
+}
+body{
+    background-color: antiquewhite;
+    text-align: center;
+}
+a{
+    text-decoration-color:  rgba(184, 135, 11, 0.692);
+    text-align: center;
+}
+Footer{
+    text-align: right; 
+}
+div{
+    text-align: center; 
+}

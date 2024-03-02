@@ -1,0 +1,29 @@
+h1{
+    text-align: center;
+    background-color: rgb(241, 82, 82);
+}
+h2{
+    text-align: center;
+    background-color: rgb(251, 160, 160);
+}
+h3{
+    background-color: rgb(251, 160, 160);
+}
+body{
+    background-color: rgb(251, 160, 160);
+    text-align: center;
+}
+a{
+    text-decoration-color:  rgb(241, 82, 82);
+    text-align: center;
+}
+Footer{
+    text-align: right; 
+}
+div{
+    text-align: center; 
+}
+table{
+    margin-left: auto;
+    margin-right: auto;
+}

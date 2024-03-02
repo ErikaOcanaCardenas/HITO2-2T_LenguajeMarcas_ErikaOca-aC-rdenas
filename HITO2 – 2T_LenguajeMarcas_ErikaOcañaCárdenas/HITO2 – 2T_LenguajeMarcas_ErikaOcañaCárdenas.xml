@@ -1,0 +1,2358 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+
+
+<?xml-stylesheet type="text/xsl" href="Fase2-1-4.xslt"?>
+<webPedidos>
+    <año año="2022">
+        <trimestre trimestre="1">
+            <pedido>
+                <cliente>
+                    <nombre>Juan</nombre>
+                    <apellidos>Pérez</apellidos>
+                    <telefono>123456789</telefono>
+                    <direccion>
+                        <calle>Calle A</calle>
+                        <ciudad>Ciudad X</ciudad>
+                        <codigoPostal>12345</codigoPostal>
+                        <provincia>Provincia Z</provincia>
+                    </direccion>
+                    <correoElectronico>juan.perez@example.com</correoElectronico>
+                </cliente>
+                <fechaInclusion>2022-01-05</fechaInclusion>
+                <detallePedido>
+                    <numeroPedido>1001</numeroPedido>
+                    <fechaCompra>2022-01-10</fechaCompra>
+                    <fechaEntrega>2022-01-15</fechaEntrega>
+                    <totalFactura>150.00</totalFactura>
+                    <productos>
+                        <producto>
+                            <nombre>Producto1</nombre>
+                            <referencia>PRD001</referencia>
+                            <precio>50.00</precio>
+                            <unidades>2</unidades>
+                        </producto>
+                    </productos>
+                </detallePedido>
+            </pedido>
+            <pedido>
+            <cliente>
+                <nombre>Maria</nombre>
+                <apellidos>Gomez</apellidos>
+                <telefono>987654321</telefono>
+                <direccion>
+                    <calle>Calle B</calle>
+                    <ciudad>Ciudad Y</ciudad>
+                    <codigoPostal>54321</codigoPostal>
+                    <provincia>Provincia W</provincia>
+                </direccion>
+                <correoElectronico>maria.gomez@example.com</correoElectronico>
+            </cliente>
+            <fechaInclusion>2022-01-15</fechaInclusion>
+            <detallePedido>
+                <numeroPedido>1002</numeroPedido>
+                <fechaCompra>2022-02-05</fechaCompra>
+                <fechaEntrega>2022-02-10</fechaEntrega>
+                <totalFactura>120.00</totalFactura>
+                <productos>
+                    <producto>
+                        <nombre>Producto2</nombre>
+                        <referencia>PRD002</referencia>
+                        <precio>30.00</precio>
+                        <unidades>3</unidades>
+                    </producto>
+                </productos>
+            </detallePedido>
+        </pedido>
+        <pedido>
+            <cliente>
+                <nombre>Carlos</nombre>
+                <apellidos>Rodriguez</apellidos>
+                <telefono>555123789</telefono>
+                <direccion>
+                    <calle>Calle C</calle>
+                    <ciudad>Ciudad Z</ciudad>
+                    <codigoPostal>67890</codigoPostal>
+                    <provincia>Provincia X</provincia>
+                </direccion>
+                <correoElectronico>carlos.rodriguez@example.com</correoElectronico>
+            </cliente>
+            <fechaInclusion>2022-01-20</fechaInclusion>
+            <detallePedido>
+                <numeroPedido>1003</numeroPedido>
+                <fechaCompra>2022-03-01</fechaCompra>
+                <fechaEntrega>2022-03-10</fechaEntrega>
+                <totalFactura>75.00</totalFactura>
+                <productos>
+                    <producto>
+                        <nombre>Producto3</nombre>
+                        <referencia>PRD003</referencia>
+                        <precio>25.00</precio>
+                        <unidades>2</unidades>
+                    </producto>
+                </productos>
+            </detallePedido>
+        </pedido>
+        <pedido>
+            <cliente>
+                <nombre>Laura</nombre>
+                <apellidos>Fernández</apellidos>
+                <telefono>333789456</telefono>
+                <direccion>
+                    <calle>Calle D</calle>
+                    <ciudad>Ciudad W</ciudad>
+                    <codigoPostal>45678</codigoPostal>
+                    <provincia>Provincia Y</provincia>
+                </direccion>
+                <correoElectronico>laura.fernandez@example.com</correoElectronico>
+            </cliente>
+            <fechaInclusion>2022-01-25</fechaInclusion>
+            <detallePedido>
+                <numeroPedido>1004</numeroPedido>
+                <fechaCompra>2022-02-15</fechaCompra>
+                <fechaEntrega>2022-02-20</fechaEntrega>
+                <totalFactura>90.00</totalFactura>
+                <productos>
+                    <producto>
+                        <nombre>Producto4</nombre>
+                        <referencia>PRD004</referencia>
+                        <precio>40.00</precio>
+                        <unidades>1</unidades>
+                    </producto>
+                </productos>
+            </detallePedido>
+        </pedido>
+        <pedido>
+            <cliente>
+                <nombre>Pablo</nombre>
+                <apellidos>Martínez</apellidos>
+                <telefono>777456123</telefono>
+                <direccion>
+                    <calle>Calle E</calle>
+                    <ciudad>Ciudad V</ciudad>
+                    <codigoPostal>23456</codigoPostal>
+                    <provincia>Provincia U</provincia>
+                </direccion>
+                <correoElectronico>pablo.martinez@example.com</correoElectronico>
+            </cliente>
+            <fechaInclusion>2022-01-30</fechaInclusion>
+            <detallePedido>
+                <numeroPedido>1005</numeroPedido>
+                <fechaCompra>2022-03-05</fechaCompra>
+                <fechaEntrega>2022-03-15</fechaEntrega>
+                <totalFactura>110.00</totalFactura>
+                <productos>
+                    <producto>
+                        <nombre>Producto5</nombre>
+                        <referencia>PRD005</referencia>
+                        <precio>30.00</precio>
+                        <unidades>3</unidades>
+                    </producto>
+                </productos>
+            </detallePedido>
+        </pedido>
+        <pedido>
+            <cliente>
+                <nombre>Ana</nombre>
+                <apellidos>López</apellidos>
+                <telefono>444987654</telefono>
+                <direccion>
+                    <calle>Calle F</calle>
+                    <ciudad>Ciudad U</ciudad>
+                    <codigoPostal>34567</codigoPostal>
+                    <provincia>Provincia T</provincia>
+                </direccion>
+                <correoElectronico>ana.lopez@example.com</correoElectronico>
+            </cliente>
+            <fechaInclusion>2022-02-05</fechaInclusion>
+            <detallePedido>
+                <numeroPedido>1006</numeroPedido>
+                <fechaCompra>2022-02-20</fechaCompra>
+                <fechaEntrega>2022-02-25</fechaEntrega>
+                <totalFactura>80.00</totalFactura>
+                <productos>
+                    <producto>
+                        <nombre>Producto6</nombre>
+                        <referencia>PRD006</referencia>
+                        <precio>25.00</precio>
+                        <unidades>2</unidades>
+                    </producto>
+                    
+                </productos>
+            </detallePedido>
+        </pedido>
+        <pedido>
+            <cliente>
+                <nombre>Ana</nombre>
+                <apellidos>López</apellidos>
+                <telefono>444987654</telefono>
+                <direccion>
+                    <calle>Calle F</calle>
+                    <ciudad>Ciudad U</ciudad>
+                    <codigoPostal>34567</codigoPostal>
+                    <provincia>Provincia T</provincia>
+                </direccion>
+                <correoElectronico>ana.lopez@example.com</correoElectronico>
+            </cliente>
+            <fechaInclusion>2022-02-05</fechaInclusion>
+            <detallePedido>
+                <numeroPedido>1007</numeroPedido>
+                <fechaCompra>2022-03-10</fechaCompra>
+                <fechaEntrega>2022-03-15</fechaEntrega>
+                <totalFactura>95.00</totalFactura>
+                <productos>
+                    <producto>
+                        <nombre>Producto7</nombre>
+                        <referencia>PRD007</referencia>
+                        <precio>40.00</precio>
+                        <unidades>1</unidades>
+                    </producto>
+                </productos>
+            </detallePedido>
+        </pedido>
+        <pedido>
+            <cliente>
+                <nombre>Ana</nombre>
+                <apellidos>López</apellidos>
+                <telefono>444987654</telefono>
+                <direccion>
+                    <calle>Calle F</calle>
+                    <ciudad>Ciudad U</ciudad>
+                    <codigoPostal>34567</codigoPostal>
+                    <provincia>Provincia T</provincia>
+                </direccion>
+                <correoElectronico>ana.lopez@example.com</correoElectronico>
+            </cliente>
+            <fechaInclusion>2022-02-05</fechaInclusion>
+            <detallePedido>
+                <numeroPedido>1008</numeroPedido>
+                <fechaCompra>2022-02-28</fechaCompra>
+                <fechaEntrega>2022-03-05</fechaEntrega>
+                <totalFactura>120.00</totalFactura>
+                <productos>
+                    <producto>
+                        <nombre>Producto8</nombre>
+                        <referencia>PRD008</referencia>
+                        <precio>50.00</precio>
+                        <unidades>2</unidades>
+                    </producto>
+                </productos>
+            </detallePedido>
+        </pedido>
+        <pedido>
+            <cliente>
+                <nombre>Luisa</nombre>
+                <apellidos>González</apellidos>
+                <telefono>777123456</telefono>
+                <direccion>
+                    <calle>Calle I</calle>
+                    <ciudad>Ciudad Q</ciudad>
+                    <codigoPostal>67890</codigoPostal>
+                    <provincia>Provincia P</provincia>
+                </direccion>
+                <correoElectronico>luisa.gonzalez@example.com</correoElectronico>
+            </cliente>
+            <fechaInclusion>2022-02-20</fechaInclusion>
+             <detallePedido>
+                <numeroPedido>1010</numeroPedido>
+                <fechaCompra>2022-03-10</fechaCompra>
+                <fechaEntrega>2022-03-15</fechaEntrega>
+                <totalFactura>100.00</totalFactura>
+                <productos>
+                    <producto>
+                        <nombre>Producto10</nombre>
+                        <referencia>PRD010</referencia>
+                        <precio>40.00</precio>
+                        <unidades>2</unidades>
+                    </producto>
+                </productos>
+            </detallePedido>
+        </pedido>
+        <pedido>
+            <cliente>
+                <nombre>Luisa</nombre>
+                <apellidos>González</apellidos>
+                <telefono>777123456</telefono>
+                <direccion>
+                    <calle>Calle I</calle>
+                    <ciudad>Ciudad Q</ciudad>
+                    <codigoPostal>67890</codigoPostal>
+                    <provincia>Provincia P</provincia>
+                </direccion>
+                <correoElectronico>luisa.gonzalez@example.com</correoElectronico>
+            </cliente>
+            <fechaInclusion>2022-02-20</fechaInclusion>
+            <detallePedido>
+                <numeroPedido>1009</numeroPedido>
+                <fechaCompra>2022-03-15</fechaCompra>
+                <fechaEntrega>2022-03-20</fechaEntrega>
+                <totalFactura>85.00</totalFactura>
+                <productos>
+                    <producto>
+                        <nombre>Producto9</nombre>
+                        <referencia>PRD009</referencia>
+                        <precio>30.00</precio>
+                        <unidades>2</unidades>
+                    </producto>
+                </productos>
+            </detallePedido>
+        </pedido>
+        </trimestre>
+
+
+
+
+
+
+
+
+
+
+
+        <trimestre trimestre="2">
+        <pedido>
+            <cliente>
+                <nombre>Isabel</nombre>
+                <apellidos>Rodríguez</apellidos>
+                <telefono>666789456</telefono>
+                <direccion>
+                    <calle>Calle K</calle>
+                    <ciudad>Ciudad O</ciudad>
+                    <codigoPostal>89012</codigoPostal>
+                    <provincia>Provincia N</provincia>
+                </direccion>
+                <correoElectronico>isabel.rodriguez@example.com</correoElectronico>
+            </cliente>
+            <fechaInclusion>2022-03-05</fechaInclusion>
+            <detallePedido>
+                <numeroPedido>2001</numeroPedido>
+                <fechaCompra>2022-03-20</fechaCompra>
+                <fechaEntrega>2022-03-25</fechaEntrega>
+                <totalFactura>95.00</totalFactura>
+                <productos>
+                    <producto>
+                        <nombre>Producto1</nombre>
+                        <referencia>PRD011</referencia>
+                        <precio>25.00</precio>
+                        <unidades>3</unidades>
+                    </producto>
+                </productos>
+            </detallePedido>
+        </pedido>
+        <pedido>
+            <cliente>
+                <nombre>Miguel</nombre>
+                <apellidos>Martínez</apellidos>
+                <telefono>555456789</telefono>
+                <direccion>
+                    <calle>Calle L</calle>
+                    <ciudad>Ciudad N</ciudad>
+                    <codigoPostal>90123</codigoPostal>
+                    <provincia>Provincia M</provincia>
+                </direccion>
+                <correoElectronico>miguel.martinez@example.com</correoElectronico>
+            </cliente>
+            <fechaInclusion>2022-04-10</fechaInclusion>
+            <detallePedido>
+                <numeroPedido>2002</numeroPedido>
+                <fechaCompra>2022-04-15</fechaCompra>
+                <fechaEntrega>2022-04-20</fechaEntrega>
+                <totalFactura>120.00</totalFactura>
+                <productos>
+                    <producto>
+                        <nombre>Producto2</nombre>
+                        <referencia>PRD012</referencia>
+                        <precio>40.00</precio>
+                        <unidades>2</unidades>
+                    </producto>
+                </productos>
+            </detallePedido>
+        </pedido>
+        <pedido>
+            <cliente>
+                <nombre>Javier</nombre>
+                <apellidos>Fernández</apellidos>
+                <telefono>777987654</telefono>
+                <direccion>
+                    <calle>Calle M</calle>
+                    <ciudad>Ciudad M</ciudad>
+                    <codigoPostal>12345</codigoPostal>
+                    <provincia>Provincia L</provincia>
+                </direccion>
+                <correoElectronico>javier.fernandez@example.com</correoElectronico>
+            </cliente>
+            <fechaInclusion>2022-04-15</fechaInclusion>
+            <detallePedido>
+                <numeroPedido>2003</numeroPedido>
+                <fechaCompra>2022-05-01</fechaCompra>
+                <fechaEntrega>2022-05-10</fechaEntrega>
+                <totalFactura>85.00</totalFactura>
+                <productos>
+                    <producto>
+                        <nombre>Producto1</nombre>
+                        <referencia>PRD013</referencia>
+                        <precio>30.00</precio>
+                        <unidades>2</unidades>
+                    </producto>
+                </productos>
+            </detallePedido>
+        </pedido>
+        <pedido>
+            <cliente>
+                <nombre>Lorena</nombre>
+                <apellidos>Rivero</apellidos>
+                <telefono>444789123</telefono>
+                <direccion>
+                    <calle>Calle N</calle>
+                    <ciudad>Ciudad L</ciudad>
+                    <codigoPostal>56789</codigoPostal>
+                    <provincia>Provincia K</provincia>
+                </direccion>
+                <correoElectronico>lorena.rivero@example.com</correoElectronico>
+            </cliente>
+            <fechaInclusion>2022-05-05</fechaInclusion>
+            <detallePedido>
+                <numeroPedido>2004</numeroPedido>
+                <fechaCompra>2022-05-15</fechaCompra>
+                <fechaEntrega>2022-05-20</fechaEntrega>
+                <totalFactura>100.00</totalFactura>
+                <productos>
+                    <producto>
+                        <nombre>Producto2</nombre>
+                        <referencia>PRD014</referencia>
+                        <precio>35.00</precio>
+                        <unidades>3</unidades>
+                    </producto>
+                </productos>
+            </detallePedido>
+        </pedido>
+        <pedido>
+            <cliente>
+                <nombre>Lucía</nombre>
+                <apellidos>Gómez</apellidos>
+                <telefono>555789987</telefono>
+                <direccion>
+                    <calle>Calle O</calle>
+                    <ciudad>Ciudad K</ciudad>
+                    <codigoPostal>78901</codigoPostal>
+                    <provincia>Provincia J</provincia>
+                </direccion>
+                <correoElectronico>lucia.gomez@example.com</correoElectronico>
+            </cliente>
+            <fechaInclusion>2022-05-10</fechaInclusion>
+            <detallePedido>
+                <numeroPedido>2005</numeroPedido>
+                <fechaCompra>2022-06-01</fechaCompra>
+                <fechaEntrega>2022-06-10</fechaEntrega>
+                <totalFactura>120.00</totalFactura>
+                <productos>
+                    <producto>
+                        <nombre>Producto1</nombre>
+                        <referencia>PRD015</referencia>
+                        <precio>40.00</precio>
+                        <unidades>2</unidades>
+                    </producto>
+                </productos>
+            </detallePedido>
+        </pedido>
+        <pedido>
+            <cliente>
+                <nombre>Daniel</nombre>
+                <apellidos>Sánchez</apellidos>
+                <telefono>777654321</telefono>
+                <direccion>
+                    <calle>Calle P</calle>
+                    <ciudad>Ciudad J</ciudad>
+                    <codigoPostal>12345</codigoPostal>
+                    <provincia>Provincia I</provincia>
+                </direccion>
+                <correoElectronico>daniel.sanchez@example.com</correoElectronico>
+            </cliente>
+            <fechaInclusion>2022-06-05</fechaInclusion>
+            <detallePedido>
+                <numeroPedido>2006</numeroPedido>
+                <fechaCompra>2022-06-15</fechaCompra>
+                <fechaEntrega>2022-06-20</fechaEntrega>
+                <totalFactura>95.00</totalFactura>
+                <productos>
+                    <producto>
+                        <nombre>Producto5</nombre>
+                        <referencia>PRD016</referencia>
+                        <precio>30.00</precio>
+                        <unidades>2</unidades>
+                    </producto>
+                </productos>
+            </detallePedido>
+        </pedido>
+        <pedido>
+            <cliente>
+                <nombre>Daniel</nombre>
+                <apellidos>Sánchez</apellidos>
+                <telefono>777654321</telefono>
+                <direccion>
+                    <calle>Calle P</calle>
+                    <ciudad>Ciudad J</ciudad>
+                    <codigoPostal>12345</codigoPostal>
+                    <provincia>Provincia I</provincia>
+                </direccion>
+                <correoElectronico>daniel.sanchez@example.com</correoElectronico>
+            </cliente>
+            <fechaInclusion>2022-06-05</fechaInclusion>
+            <detallePedido>
+                <numeroPedido>2007</numeroPedido>
+                <fechaCompra>2022-07-01</fechaCompra>
+                <fechaEntrega>2022-07-10</fechaEntrega>
+                <totalFactura>110.00</totalFactura>
+                <productos>
+                    <producto>
+                        <nombre>Producto6</nombre>
+                        <referencia>PRD017</referencia>
+                        <precio>40.00</precio>
+                        <unidades>2</unidades>
+                    </producto>
+                </productos>
+            </detallePedido>
+        </pedido>
+        <pedido>
+            <cliente>
+                <nombre>Adriana</nombre>
+                <apellidos>García</apellidos>
+                <telefono>555123789</telefono>
+                <direccion>
+                    <calle>Calle R</calle>
+                    <ciudad>Ciudad H</ciudad>
+                    <codigoPostal>34567</codigoPostal>
+                    <provincia>Provincia G</provincia>
+                </direccion>
+                <correoElectronico>adriana.garcia@example.com</correoElectronico>
+            </cliente>
+            <fechaInclusion>2022-07-05</fechaInclusion>
+            <detallePedido>
+                <numeroPedido>2008</numeroPedido>
+                <fechaCompra>2022-07-15</fechaCompra>
+                <fechaEntrega>2022-07-20</fechaEntrega>
+                <totalFactura>95.00</totalFactura>
+                <productos>
+                    <producto>
+                        <nombre>Producto6</nombre>
+                        <referencia>PRD018</referencia>
+                        <precio>30.00</precio>
+                        <unidades>3</unidades>
+                    </producto>
+                </productos>
+            </detallePedido>
+        </pedido>
+        <pedido>
+            <cliente>
+                <nombre>Adriana</nombre>
+                <apellidos>García</apellidos>
+                <telefono>555123789</telefono>
+                <direccion>
+                    <calle>Calle R</calle>
+                    <ciudad>Ciudad H</ciudad>
+                    <codigoPostal>34567</codigoPostal>
+                    <provincia>Provincia G</provincia>
+                </direccion>
+                <correoElectronico>adriana.garcia@example.com</correoElectronico>
+            </cliente>
+            <fechaInclusion>2022-08-05</fechaInclusion>
+            <detallePedido>
+                <numeroPedido>2009</numeroPedido>
+                <fechaCompra>2022-08-15</fechaCompra>
+                <fechaEntrega>2022-08-20</fechaEntrega>
+                <totalFactura>120.00</totalFactura>
+                <productos>
+                    <producto>
+                        <nombre>Producto7</nombre>
+                        <referencia>PRD019</referencia>
+                        <precio>40.00</precio>
+                        <unidades>2</unidades>
+                    </producto>
+                </productos>
+            </detallePedido>
+        </pedido>
+        <pedido>
+            <cliente>
+                <nombre>Luisa</nombre>
+                <apellidos>González</apellidos>
+                <telefono>777123456</telefono>
+                <direccion>
+                    <calle>Calle I</calle>
+                    <ciudad>Ciudad Q</ciudad>
+                    <codigoPostal>67890</codigoPostal>
+                    <provincia>Provincia P</provincia>
+                </direccion>
+                <correoElectronico>luisa.gonzalez@example.com</correoElectronico>
+            </cliente>
+            <fechaInclusion>2022-02-20</fechaInclusion>
+            <detallePedido>
+                <numeroPedido>2010</numeroPedido>
+                <fechaCompra>2022-09-15</fechaCompra>
+                <fechaEntrega>2022-09-20</fechaEntrega>
+                <totalFactura>95.00</totalFactura>
+                <productos>
+                    <producto>
+                        <nombre>Producto7</nombre>
+                        <referencia>PRD020</referencia>
+                        <precio>30.00</precio>
+                        <unidades>2</unidades>
+                    </producto>
+                </productos>
+            </detallePedido>
+        </pedido>
+        </trimestre>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <trimestre trimestre="3">
+        <pedido>
+            <cliente>
+                <nombre>Maria</nombre>
+                <apellidos>García</apellidos>
+                <telefono>564123489</telefono>
+                <direccion>
+                    <calle>Calle R</calle>
+                    <ciudad>Ciudad H</ciudad>
+                    <codigoPostal>34567</codigoPostal>
+                    <provincia>Provincia G</provincia>
+                </direccion>
+                <correoElectronico>adriana.garcia@example.com</correoElectronico>
+            </cliente>
+            <fechaInclusion>2022-10-05</fechaInclusion>
+            <detallePedido>
+                <numeroPedido>3001</numeroPedido>
+                <fechaCompra>2022-10-15</fechaCompra>
+                <fechaEntrega>2022-10-20</fechaEntrega>
+                <totalFactura>120.00</totalFactura>
+                <productos>
+                    <producto>
+                        <nombre>Producto5</nombre>
+                        <referencia>PRD021</referencia>
+                        <precio>40.00</precio>
+                        <unidades>2</unidades>
+                    </producto>
+                </productos>
+            </detallePedido>
+        </pedido>
+        <pedido>
+            <cliente>
+                <nombre>Mario</nombre>
+                <apellidos>López</apellidos>
+                <telefono>444567890</telefono>
+                <direccion>
+                    <calle>Calle S</calle>
+                    <ciudad>Ciudad G</ciudad>
+                    <codigoPostal>45678</codigoPostal>
+                    <provincia>Provincia F</provincia>
+                </direccion>
+                <correoElectronico>mario.lopez@example.com</correoElectronico>
+            </cliente>
+            <fechaInclusion>2022-11-05</fechaInclusion>
+            <detallePedido>
+                <numeroPedido>3002</numeroPedido>
+                <fechaCompra>2022-11-15</fechaCompra>
+                <fechaEntrega>2022-11-20</fechaEntrega>
+                <totalFactura>95.00</totalFactura>
+                <productos>
+                    <producto>
+                        <nombre>Producto3</nombre>
+                        <referencia>PRD022</referencia>
+                        <precio>30.00</precio>
+                        <unidades>2</unidades>
+                    </producto>
+                </productos>
+            </detallePedido>
+        </pedido>
+        <pedido>
+            <cliente>
+                <nombre>Carolina</nombre>
+                <apellidos>Martínez</apellidos>
+                <telefono>555234567</telefono>
+                <direccion>
+                    <calle>Calle T</calle>
+                    <ciudad>Ciudad F</ciudad>
+                    <codigoPostal>56789</codigoPostal>
+                    <provincia>Provincia E</provincia>
+                </direccion>
+                <correoElectronico>carolina.martinez@example.com</correoElectronico>
+            </cliente>
+            <fechaInclusion>2022-12-05</fechaInclusion>
+            <detallePedido>
+                <numeroPedido>3003</numeroPedido>
+                <fechaCompra>2022-12-15</fechaCompra>
+                <fechaEntrega>2022-12-20</fechaEntrega>
+                <totalFactura>120.00</totalFactura>
+                <productos>
+                    <producto>
+                        <nombre>Producto10</nombre>
+                        <referencia>PRD023</referencia>
+                        <precio>40.00</precio>
+                        <unidades>2</unidades>
+                    </producto>
+                </productos>
+            </detallePedido>
+        </pedido>
+        <pedido>
+            <cliente>
+                <nombre>Jorge</nombre>
+                <apellidos>Rodríguez</apellidos>
+                <telefono>777345678</telefono>
+                <direccion>
+                    <calle>Calle U</calle>
+                    <ciudad>Ciudad E</ciudad>
+                    <codigoPostal>67890</codigoPostal>
+                    <provincia>Provincia D</provincia>
+                </direccion>
+                <correoElectronico>jorge.rodriguez@example.com</correoElectronico>
+            </cliente>
+            <fechaInclusion>2022-01-05</fechaInclusion>
+            <detallePedido>
+                <numeroPedido>3004</numeroPedido>
+                <fechaCompra>2022-01-15</fechaCompra>
+                <fechaEntrega>2022-01-20</fechaEntrega>
+                <totalFactura>95.00</totalFactura>
+                <productos>
+                    <producto>
+                        <nombre>Producto9</nombre>
+                        <referencia>PRD024</referencia>
+                        <precio>30.00</precio>
+                        <unidades>2</unidades>
+                    </producto>
+                </productos>
+            </detallePedido>
+        </pedido>
+        <pedido>
+            <cliente>
+                <nombre>Verónica</nombre>
+                <apellidos>Díaz</apellidos>
+                <telefono>444890123</telefono>
+                <direccion>
+                    <calle>Calle V</calle>
+                    <ciudad>Ciudad D</ciudad>
+                    <codigoPostal>78901</codigoPostal>
+                    <provincia>Provincia C</provincia>
+                </direccion>
+                <correoElectronico>veronica.diaz@example.com</correoElectronico>
+            </cliente>
+            <fechaInclusion>2022-02-05</fechaInclusion>
+            <detallePedido>
+                <numeroPedido>3005</numeroPedido>
+                <fechaCompra>2022-02-15</fechaCompra>
+                <fechaEntrega>2022-02-20</fechaEntrega>
+                <totalFactura>120.00</totalFactura>
+                <productos>
+                    <producto>
+                        <nombre>Producto8</nombre>
+                        <referencia>PRD025</referencia>
+                        <precio>40.00</precio>
+                        <unidades>2</unidades>
+                    </producto>
+                </productos>
+            </detallePedido>
+        </pedido>
+        <pedido>
+            <cliente>
+                <nombre>Roberto</nombre>
+                <apellidos>Herrera</apellidos>
+                <telefono>555678901</telefono>
+                <direccion>
+                    <calle>Calle W</calle>
+                    <ciudad>Ciudad C</ciudad>
+                    <codigoPostal>12345</codigoPostal>
+                    <provincia>Provincia B</provincia>
+                </direccion>
+                <correoElectronico>roberto.herrera@example.com</correoElectronico>
+            </cliente>
+            <fechaInclusion>2022-03-05</fechaInclusion>
+            <detallePedido>
+                <numeroPedido>3006</numeroPedido>
+                <fechaCompra>2022-03-15</fechaCompra>
+                <fechaEntrega>2022-03-20</fechaEntrega>
+                <totalFactura>95.00</totalFactura>
+                <productos>
+                    <producto>
+                        <nombre>Producto4</nombre>
+                        <referencia>PRD026</referencia>
+                        <precio>30.00</precio>
+                        <unidades>2</unidades>
+                    </producto>
+                </productos>
+            </detallePedido>
+        </pedido>
+        <pedido>
+            <cliente>
+                <nombre>Roberto</nombre>
+                <apellidos>Herrera</apellidos>
+                <telefono>555678901</telefono>
+                <direccion>
+                    <calle>Calle W</calle>
+                    <ciudad>Ciudad C</ciudad>
+                    <codigoPostal>12345</codigoPostal>
+                    <provincia>Provincia B</provincia>
+                </direccion>
+                <correoElectronico>roberto.herrera@example.com</correoElectronico>
+            </cliente>
+            <fechaInclusion>2022-04-05</fechaInclusion>
+            <detallePedido>
+                <numeroPedido>3007</numeroPedido>
+                <fechaCompra>2022-04-15</fechaCompra>
+                <fechaEntrega>2022-04-20</fechaEntrega>
+                <totalFactura>120.00</totalFactura>
+                <productos>
+                    <producto>
+                        <nombre>Producto5</nombre>
+                        <referencia>PRD027</referencia>
+                        <precio>40.00</precio>
+                        <unidades>2</unidades>
+                    </producto>
+                </productos>
+            </detallePedido>
+        </pedido>
+        <pedido>
+            <cliente>
+                <nombre>María</nombre>
+                <apellidos>López</apellidos>
+                <telefono>444345678</telefono>
+                <direccion>
+                    <calle>Calle X</calle>
+                    <ciudad>Ciudad B</ciudad>
+                    <codigoPostal>23456</codigoPostal>
+                    <provincia>Provincia A</provincia>
+                </direccion>
+                <correoElectronico>maria.lopez@example.com</correoElectronico>
+            </cliente>
+            <fechaInclusion>2022-05-05</fechaInclusion>
+            <detallePedido>
+                <numeroPedido>3008</numeroPedido>
+                <fechaCompra>2022-05-15</fechaCompra>
+                <fechaEntrega>2022-05-20</fechaEntrega>
+                <totalFactura>95.00</totalFactura>
+                <productos>
+                    <producto>
+                        <nombre>Producto5</nombre>
+                        <referencia>PRD028</referencia>
+                        <precio>30.00</precio>
+                        <unidades>2</unidades>
+                    </producto>
+                </productos>
+            </detallePedido>
+        </pedido>
+        <pedido>
+            <cliente>
+                <nombre>María</nombre>
+                <apellidos>López</apellidos>
+                <telefono>444345678</telefono>
+                <direccion>
+                    <calle>Calle X</calle>
+                    <ciudad>Ciudad B</ciudad>
+                    <codigoPostal>23456</codigoPostal>
+                    <provincia>Provincia A</provincia>
+                </direccion>
+                <correoElectronico>maria.lopez@example.com</correoElectronico>
+            </cliente>
+            <fechaInclusion>2022-06-05</fechaInclusion>
+            <detallePedido>
+                <numeroPedido>3009</numeroPedido>
+                <fechaCompra>2022-06-15</fechaCompra>
+                <fechaEntrega>2022-06-20</fechaEntrega>
+                <totalFactura>120.00</totalFactura>
+                <productos>
+                    <producto>
+                        <nombre>Producto4</nombre>
+                        <referencia>PRD029</referencia>
+                        <precio>40.00</precio>
+                        <unidades>2</unidades>
+                    </producto>
+                </productos>
+            </detallePedido>
+        </pedido>
+        <pedido>
+            <cliente>
+                <nombre>Adriana</nombre>
+                <apellidos>García</apellidos>
+                <telefono>555123789</telefono>
+                <direccion>
+                    <calle>Calle R</calle>
+                    <ciudad>Ciudad H</ciudad>
+                    <codigoPostal>34567</codigoPostal>
+                    <provincia>Provincia G</provincia>
+                </direccion>
+                <correoElectronico>adriana.garcia@example.com</correoElectronico>
+            </cliente>
+            <fechaInclusion>2022-08-05</fechaInclusion>
+            <detallePedido>
+                <numeroPedido>3010</numeroPedido>
+                <fechaCompra>2022-07-15</fechaCompra>
+                <fechaEntrega>2022-07-20</fechaEntrega>
+                <totalFactura>95.00</totalFactura>
+                <productos>
+                    <producto>
+                        <nombre>Producto7</nombre>
+                        <referencia>PRD030</referencia>
+                        <precio>30.00</precio>
+                        <unidades>2</unidades>
+                    </producto>
+                </productos>
+            </detallePedido>
+        </pedido>
+        </trimestre>
+
+
+
+
+
+
+
+
+
+
+
+
+        <trimestre trimestre="4">
+        <pedido>
+            <cliente>
+                <nombre>Luis</nombre>
+                <apellidos>Martínez</apellidos>
+                <telefono>555789012</telefono>
+                <direccion>
+                    <calle>Calle Y</calle>
+                    <ciudad>Ciudad A</ciudad>
+                    <codigoPostal>34567</codigoPostal>
+                    <provincia>Provincia Z</provincia>
+                </direccion>
+                <correoElectronico>luis.martinez@example.com</correoElectronico>
+            </cliente>
+            <fechaInclusion>2022-08-05</fechaInclusion>
+            <detallePedido>
+                <numeroPedido>4001</numeroPedido>
+                <fechaCompra>2022-08-15</fechaCompra>
+                <fechaEntrega>2022-08-20</fechaEntrega>
+                <totalFactura>120.00</totalFactura>
+                <productos>
+                    <producto>
+                        <nombre>Producto5</nombre>
+                        <referencia>PRD031</referencia>
+                        <precio>40.00</precio>
+                        <unidades>2</unidades>
+                    </producto>
+                </productos>
+            </detallePedido>
+        </pedido>
+        <pedido>
+            <cliente>
+                <nombre>Marta</nombre>
+                <apellidos>Gómez</apellidos>
+                <telefono>444901234</telefono>
+                <direccion>
+                    <calle>Calle Z</calle>
+                    <ciudad>Ciudad Z</ciudad>
+                    <codigoPostal>45678</codigoPostal>
+                    <provincia>Provincia Y</provincia>
+                </direccion>
+                <correoElectronico>marta.gomez@example.com</correoElectronico>
+            </cliente>
+            <fechaInclusion>2022-09-05</fechaInclusion>
+            <detallePedido>
+                <numeroPedido>4002</numeroPedido>
+                <fechaCompra>2022-09-15</fechaCompra>
+                <fechaEntrega>2022-09-20</fechaEntrega>
+                <totalFactura>95.00</totalFactura>
+                <productos>
+                    <producto>
+                        <nombre>Producto4</nombre>
+                        <referencia>PRD032</referencia>
+                        <precio>30.00</precio>
+                        <unidades>2</unidades>
+                    </producto>
+                </productos>
+            </detallePedido>
+        </pedido>
+        <pedido>
+            <cliente>
+                <nombre>Carlos</nombre>
+                <apellidos>Fernández</apellidos>
+                <telefono>555123456</telefono>
+                <direccion>
+                    <calle>Calle A1</calle>
+                    <ciudad>Ciudad A1</ciudad>
+                    <codigoPostal>56789</codigoPostal>
+                    <provincia>Provincia X</provincia>
+                </direccion>
+                <correoElectronico>carlos.fernandez@example.com</correoElectronico>
+            </cliente>
+            <fechaInclusion>2022-10-05</fechaInclusion>
+            <detallePedido>
+                <numeroPedido>4003</numeroPedido>
+                <fechaCompra>2022-10-15</fechaCompra>
+                <fechaEntrega>2022-10-20</fechaEntrega>
+                <totalFactura>120.00</totalFactura>
+                <productos>
+                    <producto>
+                        <nombre>Producto5</nombre>
+                        <referencia>PRD033</referencia>
+                        <precio>40.00</precio>
+                        <unidades>2</unidades>
+                    </producto>
+                </productos>
+            </detallePedido>
+        </pedido>
+        <pedido>
+            <cliente>
+                <nombre>Lorena</nombre>
+                <apellidos>Rivera</apellidos>
+                <telefono>444567890</telefono>
+                <direccion>
+                    <calle>Calle B1</calle>
+                    <ciudad>Ciudad B1</ciudad>
+                    <codigoPostal>67890</codigoPostal>
+                    <provincia>Provincia W</provincia>
+                </direccion>
+                <correoElectronico>lorena.rivera@example.com</correoElectronico>
+            </cliente>
+            <fechaInclusion>2022-11-05</fechaInclusion>
+            <detallePedido>
+                <numeroPedido>4004</numeroPedido>
+                <fechaCompra>2022-11-15</fechaCompra>
+                <fechaEntrega>2022-11-20</fechaEntrega>
+                <totalFactura>95.00</totalFactura>
+                <productos>
+                    <producto>
+                        <nombre>Producto6</nombre>
+                        <referencia>PRD034</referencia>
+                        <precio>30.00</precio>
+                        <unidades>2</unidades>
+                    </producto>
+                </productos>
+            </detallePedido>
+        </pedido>
+        <pedido>
+            <cliente>
+                <nombre>Ricardo</nombre>
+                <apellidos>Mendoza</apellidos>
+                <telefono>555234567</telefono>
+                <direccion>
+                    <calle>Calle C1</calle>
+                    <ciudad>Ciudad C1</ciudad>
+                    <codigoPostal>78901</codigoPostal>
+                    <provincia>Provincia V</provincia>
+                </direccion>
+                <correoElectronico>ricardo.mendoza@example.com</correoElectronico>
+            </cliente>
+            <fechaInclusion>2022-12-05</fechaInclusion>
+            <detallePedido>
+                <numeroPedido>4005</numeroPedido>
+                <fechaCompra>2022-12-15</fechaCompra>
+                <fechaEntrega>2022-12-20</fechaEntrega>
+                <totalFactura>120.00</totalFactura>
+                <productos>
+                    <producto>
+                        <nombre>Producto10</nombre>
+                        <referencia>PRD035</referencia>
+                        <precio>40.00</precio>
+                        <unidades>2</unidades>
+                    </producto>
+                </productos>
+            </detallePedido>
+        </pedido>
+        <pedido>
+            <cliente>
+                <nombre>Paula</nombre>
+                <apellidos>Gutiérrez</apellidos>
+                <telefono>444890123</telefono>
+                <direccion>
+                    <calle>Calle D1</calle>
+                    <ciudad>Ciudad D1</ciudad>
+                    <codigoPostal>12345</codigoPostal>
+                    <provincia>Provincia U</provincia>
+                </direccion>
+                <correoElectronico>paula.gutierrez@example.com</correoElectronico>
+            </cliente>
+            <fechaInclusion>2023-01-05</fechaInclusion>
+            <detallePedido>
+                <numeroPedido>4006</numeroPedido>
+                <fechaCompra>2023-01-15</fechaCompra>
+                <fechaEntrega>2023-01-20</fechaEntrega>
+                <totalFactura>95.00</totalFactura>
+                <productos>
+                    <producto>
+                        <nombre>Producto7</nombre>
+                        <referencia>PRD036</referencia>
+                        <precio>30.00</precio>
+                        <unidades>2</unidades>
+                    </producto>
+                </productos>
+            </detallePedido>
+        </pedido>
+        <pedido>
+            <cliente>
+                <nombre>Paula</nombre>
+                <apellidos>Gutiérrez</apellidos>
+                <telefono>444890123</telefono>
+                <direccion>
+                    <calle>Calle D1</calle>
+                    <ciudad>Ciudad D1</ciudad>
+                    <codigoPostal>12345</codigoPostal>
+                    <provincia>Provincia U</provincia>
+                </direccion>
+                <correoElectronico>paula.gutierrez@example.com</correoElectronico>
+            </cliente>
+            <fechaInclusion>2023-02-05</fechaInclusion>
+            <detallePedido>
+                <numeroPedido>4007</numeroPedido>
+                <fechaCompra>2023-02-15</fechaCompra>
+                <fechaEntrega>2023-02-20</fechaEntrega>
+                <totalFactura>120.00</totalFactura>
+                <productos>
+                    <producto>
+                        <nombre>Producto8</nombre>
+                        <referencia>PRD037</referencia>
+                        <precio>40.00</precio>
+                        <unidades>2</unidades>
+                    </producto>
+                </productos>
+            </detallePedido>
+        </pedido>
+        <pedido>
+            <cliente>
+                <nombre>Paula</nombre>
+                <apellidos>Gutiérrez</apellidos>
+                <telefono>444890123</telefono>
+                <direccion>
+                    <calle>Calle D1</calle>
+                    <ciudad>Ciudad D1</ciudad>
+                    <codigoPostal>12345</codigoPostal>
+                    <provincia>Provincia U</provincia>
+                </direccion>
+                <correoElectronico>paula.gutierrez@example.com</correoElectronico>
+            </cliente>
+            <fechaInclusion>2023-03-05</fechaInclusion>
+            <detallePedido>
+                <numeroPedido>4008</numeroPedido>
+                <fechaCompra>2023-03-15</fechaCompra>
+                <fechaEntrega>2023-03-20</fechaEntrega>
+                <totalFactura>95.00</totalFactura>
+                <productos>
+                    <producto>
+                        <nombre>Producto6</nombre>
+                        <referencia>PRD038</referencia>
+                        <precio>30.00</precio>
+                        <unidades>2</unidades>
+                    </producto>
+                </productos>
+            </detallePedido>
+        </pedido>
+        <pedido>
+            <cliente>
+                <nombre>Alberto</nombre>
+                <apellidos>Rivero</apellidos>
+                <telefono>555345678</telefono>
+                <direccion>
+                    <calle>Calle E1</calle>
+                    <ciudad>Ciudad E1</ciudad>
+                    <codigoPostal>23456</codigoPostal>
+                    <provincia>Provincia T</provincia>
+                </direccion>
+                <correoElectronico>alberto.rivero@example.com</correoElectronico>
+            </cliente>
+            <fechaInclusion>2023-04-05</fechaInclusion>
+            <detallePedido>
+                <numeroPedido>4009</numeroPedido>
+                <fechaCompra>2023-04-15</fechaCompra>
+                <fechaEntrega>2023-04-20</fechaEntrega>
+                <totalFactura>120.00</totalFactura>
+                <productos>
+                    <producto>
+                        <nombre>Producto7</nombre>
+                        <referencia>PRD039</referencia>
+                        <precio>40.00</precio>
+                        <unidades>2</unidades>
+                    </producto>
+                </productos>
+            </detallePedido>
+        </pedido>
+        <pedido>
+            <cliente>
+                <nombre>Alberto</nombre>
+                <apellidos>Rivero</apellidos>
+                <telefono>555345678</telefono>
+                <direccion>
+                    <calle>Calle E1</calle>
+                    <ciudad>Ciudad E1</ciudad>
+                    <codigoPostal>23456</codigoPostal>
+                    <provincia>Provincia T</provincia>
+                </direccion>
+                <correoElectronico>alberto.rivero@example.com</correoElectronico>
+            </cliente>
+            <fechaInclusion>2023-05-05</fechaInclusion>
+            <detallePedido>
+                <numeroPedido>4010</numeroPedido>
+                <fechaCompra>2023-05-15</fechaCompra>
+                <fechaEntrega>2023-05-20</fechaEntrega>
+                <totalFactura>95.00</totalFactura>
+                <productos>
+                    <producto>
+                        <nombre>Producto4</nombre>
+                        <referencia>PRD040</referencia>
+                        <precio>30.00</precio>
+                        <unidades>2</unidades>
+                    </producto>
+                </productos>
+            </detallePedido>
+        </pedido>
+        </trimestre>
+    </año>
+
+
+
+
+
+
+
+
+
+    <año año="2022">
+        <trimestre trimestre="1">
+        <pedido>
+            <cliente>
+                <nombre>Laura</nombre>
+                <apellidos>Hernández</apellidos>
+                <telefono>444456789</telefono>
+                <direccion>
+                    <calle>Calle F1</calle>
+                    <ciudad>Ciudad F1</ciudad>
+                    <codigoPostal>34567</codigoPostal>
+                    <provincia>Provincia S</provincia>
+                </direccion>
+                <correoElectronico>laura.hernandez@example.com</correoElectronico>
+            </cliente>
+            <fechaInclusion>2023-01-05</fechaInclusion>
+            <detallePedido>
+                <numeroPedido>5001</numeroPedido>
+                <fechaCompra>2023-01-15</fechaCompra>
+                <fechaEntrega>2023-01-20</fechaEntrega>
+                <totalFactura>120.00</totalFactura>
+                <productos>
+                    <producto>
+                        <nombre>Producto5</nombre>
+                        <referencia>PRD041</referencia>
+                        <precio>40.00</precio>
+                        <unidades>2</unidades>
+                    </producto>
+                </productos>
+            </detallePedido>
+        </pedido>
+        <pedido>
+            <cliente>
+                <nombre>Javier</nombre>
+                <apellidos>Sanchez</apellidos>
+                <telefono>555567890</telefono>
+                <direccion>
+                    <calle>Calle G1</calle>
+                    <ciudad>Ciudad G1</ciudad>
+                    <codigoPostal>45678</codigoPostal>
+                    <provincia>Provincia R</provincia>
+                </direccion>
+                <correoElectronico>javier.sanchez@example.com</correoElectronico>
+            </cliente>
+            <fechaInclusion>2023-02-05</fechaInclusion>
+            <detallePedido>
+                <numeroPedido>5002</numeroPedido>
+                <fechaCompra>2023-02-15</fechaCompra>
+                <fechaEntrega>2023-02-20</fechaEntrega>
+                <totalFactura>95.00</totalFactura>
+                <productos>
+                    <producto>
+                        <nombre>Producto1</nombre>
+                        <referencia>PRD042</referencia>
+                        <precio>30.00</precio>
+                        <unidades>2</unidades>
+                    </producto>
+                </productos>
+            </detallePedido>
+        </pedido>
+        <pedido>
+            <cliente>
+                <nombre>Sergio</nombre>
+                <apellidos>García</apellidos>
+                <telefono>555789012</telefono>
+                <direccion>
+                    <calle>Calle I1</calle>
+                    <ciudad>Ciudad I1</ciudad>
+                    <codigoPostal>67890</codigoPostal>
+                    <provincia>Provincia P</provincia>
+                </direccion>
+                <correoElectronico>sergio.garcia@example.com</correoElectronico>
+            </cliente>
+            <fechaInclusion>2023-04-05</fechaInclusion>
+            <detallePedido>
+                <numeroPedido>5004</numeroPedido>
+                <fechaCompra>2023-04-15</fechaCompra>
+                <fechaEntrega>2023-04-20</fechaEntrega>
+                <totalFactura>95.00</totalFactura>
+                <productos>
+                    <producto>
+                        <nombre>Producto44</nombre>
+                        <referencia>PRD044</referencia>
+                        <precio>30.00</precio>
+                        <unidades>2</unidades>
+                    </producto>
+                </productos>
+            </detallePedido>
+        </pedido>
+        <pedido>
+            <cliente>
+                <nombre>Ana</nombre>
+                <apellidos>Ruíz</apellidos>
+                <telefono>444901234</telefono>
+                <direccion>
+                    <calle>Calle J1</calle>
+                    <ciudad>Ciudad J1</ciudad>
+                    <codigoPostal>78901</codigoPostal>
+                    <provincia>Provincia O</provincia>
+                </direccion>
+                <correoElectronico>ana.ruiz@example.com</correoElectronico>
+            </cliente>
+            <fechaInclusion>2023-05-05</fechaInclusion>
+            <detallePedido>
+                <numeroPedido>5005</numeroPedido>
+                <fechaCompra>2023-05-15</fechaCompra>
+                <fechaEntrega>2023-05-20</fechaEntrega>
+                <totalFactura>120.00</totalFactura>
+                <productos>
+                    <producto>
+                        <nombre>Producto3</nombre>
+                        <referencia>PRD045</referencia>
+                        <precio>40.00</precio>
+                        <unidades>2</unidades>
+                    </producto>
+                </productos>
+            </detallePedido>
+        </pedido>
+        <pedido>
+            <cliente>
+                <nombre>Raúl</nombre>
+                <apellidos>Gómez</apellidos>
+                <telefono>555012345</telefono>
+                <direccion>
+                    <calle>Calle K1</calle>
+                    <ciudad>Ciudad K1</ciudad>
+                    <codigoPostal>12345</codigoPostal>
+                    <provincia>Provincia N</provincia>
+                </direccion>
+                <correoElectronico>raul.gomez@example.com</correoElectronico>
+            </cliente>
+            <fechaInclusion>2023-06-05</fechaInclusion>
+            <detallePedido>
+                <numeroPedido>5006</numeroPedido>
+                <fechaCompra>2023-06-15</fechaCompra>
+                <fechaEntrega>2023-06-20</fechaEntrega>
+                <totalFactura>95.00</totalFactura>
+                <productos>
+                    <producto>
+                        <nombre>Producto1</nombre>
+                        <referencia>PRD046</referencia>
+                        <precio>30.00</precio>
+                        <unidades>2</unidades>
+                    </producto>
+                </productos>
+            </detallePedido>
+        </pedido>
+        <pedido>
+            <cliente>
+                <nombre>Raúl</nombre>
+                <apellidos>Gómez</apellidos>
+                <telefono>555012345</telefono>
+                <direccion>
+                    <calle>Calle K1</calle>
+                    <ciudad>Ciudad K1</ciudad>
+                    <codigoPostal>12345</codigoPostal>
+                    <provincia>Provincia N</provincia>
+                </direccion>
+                <correoElectronico>raul.gomez@example.com</correoElectronico>
+            </cliente>
+            <fechaInclusion>2023-07-05</fechaInclusion>
+            <detallePedido>
+                <numeroPedido>5007</numeroPedido>
+                <fechaCompra>2023-07-15</fechaCompra>
+                <fechaEntrega>2023-07-20</fechaEntrega>
+                <totalFactura>120.00</totalFactura>
+                <productos>
+                    <producto>
+                        <nombre>Producto7</nombre>
+                        <referencia>PRD047</referencia>
+                        <precio>40.00</precio>
+                        <unidades>2</unidades>
+                    </producto>
+                </productos>
+            </detallePedido>
+        </pedido>
+         <pedido>
+            <cliente>
+                <nombre>María</nombre>
+                <apellidos>López</apellidos>
+                <telefono>444123456</telefono>
+                <direccion>
+                    <calle>Calle L1</calle>
+                    <ciudad>Ciudad L1</ciudad>
+                    <codigoPostal>23456</codigoPostal>
+                    <provincia>Provincia M</provincia>
+                </direccion>
+                <correoElectronico>maria.lopez@example.com</correoElectronico>
+            </cliente>
+            <fechaInclusion>2023-08-05</fechaInclusion>
+            <detallePedido>
+                <numeroPedido>5008</numeroPedido>
+                <fechaCompra>2023-08-15</fechaCompra>
+                <fechaEntrega>2023-08-20</fechaEntrega>
+                <totalFactura>95.00</totalFactura>
+                <productos>
+                    <producto>
+                        <nombre>Producto3</nombre>
+                        <referencia>PRD048</referencia>
+                        <precio>30.00</precio>
+                        <unidades>2</unidades>
+                    </producto>
+                </productos>
+            </detallePedido>
+        </pedido>
+        <pedido>
+            <cliente>
+                <nombre>María</nombre>
+                <apellidos>López</apellidos>
+                <telefono>444123456</telefono>
+                <direccion>
+                    <calle>Calle L1</calle>
+                    <ciudad>Ciudad L1</ciudad>
+                    <codigoPostal>23456</codigoPostal>
+                    <provincia>Provincia M</provincia>
+                </direccion>
+                <correoElectronico>maria.lopez@example.com</correoElectronico>
+            </cliente>
+            <fechaInclusion>2023-09-05</fechaInclusion>
+            <detallePedido>
+                <numeroPedido>5009</numeroPedido>
+                <fechaCompra>2023-09-15</fechaCompra>
+                <fechaEntrega>2023-09-20</fechaEntrega>
+                <totalFactura>120.00</totalFactura>
+                <productos>
+                    <producto>
+                        <nombre>Producto1</nombre>
+                        <referencia>PRD049</referencia>
+                        <precio>40.00</precio>
+                        <unidades>2</unidades>
+                    </producto>
+                </productos>
+            </detallePedido>
+        </pedido>
+        <pedido>
+            <cliente>
+                <nombre>María</nombre>
+                <apellidos>López</apellidos>
+                <telefono>444123456</telefono>
+                <direccion>
+                    <calle>Calle L1</calle>
+                    <ciudad>Ciudad L1</ciudad>
+                    <codigoPostal>23456</codigoPostal>
+                    <provincia>Provincia M</provincia>
+                </direccion>
+                <correoElectronico>maria.lopez@example.com</correoElectronico>
+            </cliente>
+            <fechaInclusion>2023-10-05</fechaInclusion>
+            <detallePedido>
+                <numeroPedido>5010</numeroPedido>
+                <fechaCompra>2023-10-15</fechaCompra>
+                <fechaEntrega>2023-10-20</fechaEntrega>
+                <totalFactura>95.00</totalFactura>
+                <productos>
+                    <producto>
+                        <nombre>Producto2</nombre>
+                        <referencia>PRD050</referencia>
+                        <precio>30.00</precio>
+                        <unidades>2</unidades>
+                    </producto>
+                </productos>
+            </detallePedido>
+        </pedido>
+        </trimestre>
+
+
+
+
+
+
+
+
+        <trimestre trimestre="2">
+        <pedido>
+            <cliente>
+                <nombre>Marta</nombre>
+                <apellidos>Rodríguez</apellidos>
+                <telefono>444567890</telefono>
+                <direccion>
+                    <calle>Calle P1</calle>
+                    <ciudad>Ciudad P1</ciudad>
+                    <codigoPostal>67890</codigoPostal>
+                    <provincia>Provincia I</provincia>
+                </direccion>
+                <correoElectronico>marta.rodriguez@example.com</correoElectronico>
+            </cliente>
+            <fechaInclusion>2024-02-05</fechaInclusion>
+            <detallePedido>
+                <numeroPedido>6001</numeroPedido>
+                <fechaCompra>2024-02-15</fechaCompra>
+                <fechaEntrega>2024-02-20</fechaEntrega>
+                <totalFactura>95.00</totalFactura>
+                <productos>
+                    <producto>
+                        <nombre>Producto4</nombre>
+                        <referencia>PRD054</referencia>
+                        <precio>30.00</precio>
+                        <unidades>2</unidades>
+                    </producto>
+                </productos>
+            </detallePedido>
+        </pedido>
+        <pedido>
+            <cliente>
+                <nombre>Jorge</nombre>
+                <apellidos>Martínez</apellidos>
+                <telefono>555678901</telefono>
+                <direccion>
+                    <calle>Calle Q2</calle>
+                    <ciudad>Ciudad Q2</ciudad>
+                    <codigoPostal>78901</codigoPostal>
+                    <provincia>Provincia H</provincia>
+                </direccion>
+                <correoElectronico>jorge.martinez@example.com</correoElectronico>
+            </cliente>
+            <fechaInclusion>2024-03-10</fechaInclusion>
+            <detallePedido>
+                <numeroPedido>6002</numeroPedido>
+                <fechaCompra>2024-03-20</fechaCompra>
+                <fechaEntrega>2024-03-25</fechaEntrega>
+                <totalFactura>120.00</totalFactura>
+                <productos>
+                    <producto>
+                        <nombre>Producto5</nombre>
+                        <referencia>PRD055</referencia>
+                        <precio>40.00</precio>
+                        <unidades>2</unidades>
+                    </producto>
+                </productos>
+            </detallePedido>
+        </pedido>
+        <pedido>
+            <cliente>
+                <nombre>Lorena</nombre>
+                <apellidos>García</apellidos>
+                <telefono>444789012</telefono>
+                <direccion>
+                    <calle>Calle R2</calle>
+                    <ciudad>Ciudad R2</ciudad>
+                    <codigoPostal>89012</codigoPostal>
+                    <provincia>Provincia G</provincia>
+                </direccion>
+                <correoElectronico>lorena.garcia@example.com</correoElectronico>
+            </cliente>
+            <fechaInclusion>2024-04-05</fechaInclusion>
+            <detallePedido>
+                <numeroPedido>6003</numeroPedido>
+                <fechaCompra>2024-04-15</fechaCompra>
+                <fechaEntrega>2024-04-20</fechaEntrega>
+                <totalFactura>95.00</totalFactura>
+                <productos>
+                    <producto>
+                        <nombre>Producto3</nombre>
+                        <referencia>PRD056</referencia>
+                        <precio>30.00</precio>
+                        <unidades>2</unidades>
+                    </producto>
+                </productos>
+            </detallePedido>
+        </pedido>
+        <pedido>
+            <cliente>
+                <nombre>Manuel</nombre>
+                <apellidos>Fernández</apellidos>
+                <telefono>555890123</telefono>
+                <direccion>
+                    <calle>Calle S2</calle>
+                    <ciudad>Ciudad S2</ciudad>
+                    <codigoPostal>12345</codigoPostal>
+                    <provincia>Provincia F</provincia>
+                </direccion>
+                <correoElectronico>manuel.fernandez@example.com</correoElectronico>
+            </cliente>
+            <fechaInclusion>2024-05-10</fechaInclusion>
+            <detallePedido>
+                <numeroPedido>6004</numeroPedido>
+                <fechaCompra>2024-05-20</fechaCompra>
+                <fechaEntrega>2024-05-25</fechaEntrega>
+                <totalFactura>120.00</totalFactura>
+                <productos>
+                    <producto>
+                        <nombre>Producto7</nombre>
+                        <referencia>PRD057</referencia>
+                        <precio>40.00</precio>
+                        <unidades>2</unidades>
+                    </producto>
+                </productos>
+            </detallePedido>
+        </pedido>
+        <pedido>
+            <cliente>
+                <nombre>Isabel</nombre>
+                <apellidos>López</apellidos>
+                <telefono>444567890</telefono>
+                <direccion>
+                    <calle>Calle T2</calle>
+                    <ciudad>Ciudad T2</ciudad>
+                    <codigoPostal>23456</codigoPostal>
+                    <provincia>Provincia E</provincia>
+                </direccion>
+                <correoElectronico>isabel.lopez@example.com</correoElectronico>
+            </cliente>
+            <fechaInclusion>2024-06-05</fechaInclusion>
+            <detallePedido>
+                <numeroPedido>6005</numeroPedido>
+                <fechaCompra>2024-06-15</fechaCompra>
+                <fechaEntrega>2024-06-20</fechaEntrega>
+                <totalFactura>95.00</totalFactura>
+                <productos>
+                    <producto>
+                        <nombre>Producto6</nombre>
+                        <referencia>PRD058</referencia>
+                        <precio>30.00</precio>
+                        <unidades>2</unidades>
+                    </producto>
+                </productos>
+            </detallePedido>
+        </pedido>
+        <pedido>
+            <cliente>
+                <nombre>Elena</nombre>
+                <apellidos>Ruiz</apellidos>
+                <telefono>555012345</telefono>
+                <direccion>
+                    <calle>Calle U2</calle>
+                    <ciudad>Ciudad U2</ciudad>
+                    <codigoPostal>34567</codigoPostal>
+                    <provincia>Provincia D</provincia>
+                </direccion>
+                <correoElectronico>elena.ruiz@example.com</correoElectronico>
+            </cliente>
+            <fechaInclusion>2024-07-10</fechaInclusion>
+            <detallePedido>
+                <numeroPedido>6006</numeroPedido>
+                <fechaCompra>2024-07-20</fechaCompra>
+                <fechaEntrega>2024-07-25</fechaEntrega>
+                <totalFactura>120.00</totalFactura>
+                <productos>
+                    <producto>
+                        <nombre>Producto4</nombre>
+                        <referencia>PRD059</referencia>
+                        <precio>40.00</precio>
+                        <unidades>2</unidades>
+                    </producto>
+                </productos>
+            </detallePedido>
+        </pedido>
+        <pedido>
+            <cliente>
+                <nombre>Elena</nombre>
+                <apellidos>Ruiz</apellidos>
+                <telefono>555012345</telefono>
+                <direccion>
+                    <calle>Calle U2</calle>
+                    <ciudad>Ciudad U2</ciudad>
+                    <codigoPostal>34567</codigoPostal>
+                    <provincia>Provincia D</provincia>
+                </direccion>
+                <correoElectronico>elena.ruiz@example.com</correoElectronico>
+            </cliente>
+            <fechaInclusion>2024-08-05</fechaInclusion>
+            <detallePedido>
+                <numeroPedido>6007</numeroPedido>
+                <fechaCompra>2024-08-15</fechaCompra>
+                <fechaEntrega>2024-08-20</fechaEntrega>
+                <totalFactura>95.00</totalFactura>
+                <productos>
+                    <producto>
+                        <nombre>Producto10</nombre>
+                        <referencia>PRD060</referencia>
+                        <precio>30.00</precio>
+                        <unidades>2</unidades>
+                    </producto>
+                </productos>
+            </detallePedido>
+        </pedido>
+        <pedido>
+            <cliente>
+                <nombre>Elena</nombre>
+                <apellidos>Ruiz</apellidos>
+                <telefono>555012345</telefono>
+                <direccion>
+                    <calle>Calle U2</calle>
+                    <ciudad>Ciudad U2</ciudad>
+                    <codigoPostal>34567</codigoPostal>
+                    <provincia>Provincia D</provincia>
+                </direccion>
+                <correoElectronico>elena.ruiz@example.com</correoElectronico>
+            </cliente>
+            <fechaInclusion>2024-09-10</fechaInclusion>
+            <detallePedido>
+                <numeroPedido>6008</numeroPedido>
+                <fechaCompra>2024-09-20</fechaCompra>
+                <fechaEntrega>2024-09-25</fechaEntrega>
+                <totalFactura>120.00</totalFactura>
+                <productos>
+                    <producto>
+                        <nombre>Producto1</nombre>
+                        <referencia>PRD061</referencia>
+                        <precio>40.00</precio>
+                        <unidades>2</unidades>
+                    </producto>
+                </productos>
+            </detallePedido>
+        </pedido>
+        <pedido>
+            <cliente>
+                <nombre>Roberto</nombre>
+                <apellidos>González</apellidos>
+                <telefono>444234567</telefono>
+                <direccion>
+                    <calle>Calle V2</calle>
+                    <ciudad>Ciudad V2</ciudad>
+                    <codigoPostal>45678</codigoPostal>
+                    <provincia>Provincia C</provincia>
+                </direccion>
+                <correoElectronico>roberto.gonzalez@example.com</correoElectronico>
+            </cliente>
+            <fechaInclusion>2024-10-05</fechaInclusion>
+            <detallePedido>
+                <numeroPedido>6009</numeroPedido>
+                <fechaCompra>2024-10-15</fechaCompra>
+                <fechaEntrega>2024-10-20</fechaEntrega>
+                <totalFactura>95.00</totalFactura>
+                <productos>
+                    <producto>
+                        <nombre>Producto3</nombre>
+                        <referencia>PRD062</referencia>
+                        <precio>30.00</precio>
+                        <unidades>2</unidades>
+                    </producto>
+                </productos>
+            </detallePedido>
+        </pedido>
+        <pedido>
+            <cliente>
+                <nombre>Roberto</nombre>
+                <apellidos>González</apellidos>
+                <telefono>444234567</telefono>
+                <direccion>
+                    <calle>Calle V2</calle>
+                    <ciudad>Ciudad V2</ciudad>
+                    <codigoPostal>45678</codigoPostal>
+                    <provincia>Provincia C</provincia>
+                </direccion>
+                <correoElectronico>roberto.gonzalez@example.com</correoElectronico>
+            </cliente>
+            <fechaInclusion>2024-11-10</fechaInclusion>
+            <detallePedido>
+                <numeroPedido>6010</numeroPedido>
+                <fechaCompra>2024-11-20</fechaCompra>
+                <fechaEntrega>2024-11-25</fechaEntrega>
+                <totalFactura>120.00</totalFactura>
+                <productos>
+                    <producto>
+                        <nombre>Producto2</nombre>
+                        <referencia>PRD063</referencia>
+                        <precio>40.00</precio>
+                        <unidades>2</unidades>
+                    </producto>
+                </productos>
+            </detallePedido>
+        </pedido>
+        </trimestre>
+
+
+
+
+
+
+
+
+        <trimestre trimestre="3">
+        <pedido>
+            <cliente>
+                <nombre>Sofía</nombre>
+                <apellidos>Mendoza</apellidos>
+                <telefono>555456789</telefono>
+                <direccion>
+                    <calle>Calle W3</calle>
+                    <ciudad>Ciudad W3</ciudad>
+                    <codigoPostal>56789</codigoPostal>
+                    <provincia>Provincia B</provincia>
+                </direccion>
+                <correoElectronico>sofia.mendoza@example.com</correoElectronico>
+            </cliente>
+            <fechaInclusion>2024-12-05</fechaInclusion>
+            <detallePedido>
+                <numeroPedido>7001</numeroPedido>
+                <fechaCompra>2024-12-15</fechaCompra>
+                <fechaEntrega>2024-12-20</fechaEntrega>
+                <totalFactura>95.00</totalFactura>
+                <productos>
+                    <producto>
+                        <nombre>Producto1</nombre>
+                        <referencia>PRD064</referencia>
+                        <precio>30.00</precio>
+                        <unidades>2</unidades>
+                    </producto>
+                </productos>
+            </detallePedido>
+        </pedido>
+        <pedido>
+            <cliente>
+                <nombre>Carlos</nombre>
+                <apellidos>Rivera</apellidos>
+                <telefono>444567890</telefono>
+                <direccion>
+                    <calle>Calle X3</calle>
+                    <ciudad>Ciudad X3</ciudad>
+                    <codigoPostal>67890</codigoPostal>
+                    <provincia>Provincia A</provincia>
+                </direccion>
+                <correoElectronico>carlos.rivera@example.com</correoElectronico>
+            </cliente>
+            <fechaInclusion>2024-12-10</fechaInclusion>
+            <detallePedido>
+                <numeroPedido>7002</numeroPedido>
+                <fechaCompra>2024-12-20</fechaCompra>
+                <fechaEntrega>2024-12-25</fechaEntrega>
+                <totalFactura>120.00</totalFactura>
+                <productos>
+                    <producto>
+                        <nombre>Producto4</nombre>
+                        <referencia>PRD065</referencia>
+                        <precio>40.00</precio>
+                        <unidades>2</unidades>
+                    </producto>
+                </productos>
+            </detallePedido>
+        </pedido>
+        <pedido>
+            <cliente>
+                <nombre>Luisa</nombre>
+                <apellidos>Hernández</apellidos>
+                <telefono>555123456</telefono>
+                <direccion>
+                    <calle>Calle Y3</calle>
+                    <ciudad>Ciudad Y3</ciudad>
+                    <codigoPostal>78901</codigoPostal>
+                    <provincia>Provincia Z</provincia>
+                </direccion>
+                <correoElectronico>luisa.hernandez@example.com</correoElectronico>
+            </cliente>
+            <fechaInclusion>2024-12-15</fechaInclusion>
+            <detallePedido>
+                <numeroPedido>7003</numeroPedido>
+                <fechaCompra>2024-12-25</fechaCompra>
+                <fechaEntrega>2022-01-05</fechaEntrega>
+                <totalFactura>95.00</totalFactura>
+                <productos>
+                    <producto>
+                        <nombre>Producto6</nombre>
+                        <referencia>PRD066</referencia>
+                        <precio>30.00</precio>
+                        <unidades>2</unidades>
+                    </producto>
+                </productos>
+            </detallePedido>
+        </pedido>
+        <pedido>
+            <cliente>
+                <nombre>Miguel</nombre>
+                <apellidos>Gómez</apellidos>
+                <telefono>444789012</telefono>
+                <direccion>
+                    <calle>Calle Z3</calle>
+                    <ciudad>Ciudad Z3</ciudad>
+                    <codigoPostal>12345</codigoPostal>
+                    <provincia>Provincia Y</provincia>
+                </direccion>
+                <correoElectronico>miguel.gomez@example.com</correoElectronico>
+            </cliente>
+            <fechaInclusion>2024-12-20</fechaInclusion>
+            <detallePedido>
+                <numeroPedido>7004</numeroPedido>
+                <fechaCompra>2022-01-05</fechaCompra>
+                <fechaEntrega>2022-01-10</fechaEntrega>
+                <totalFactura>120.00</totalFactura>
+                <productos>
+                    <producto>
+                        <nombre>Producto7</nombre>
+                        <referencia>PRD067</referencia>
+                        <precio>40.00</precio>
+                        <unidades>2</unidades>
+                    </producto>
+                </productos>
+            </detallePedido>
+        </pedido>
+        <pedido>
+            <cliente>
+                <nombre>Ana</nombre>
+                <apellidos>Ramírez</apellidos>
+                <telefono>555234567</telefono>
+                <direccion>
+                    <calle>Calle A4</calle>
+                    <ciudad>Ciudad A4</ciudad>
+                    <codigoPostal>23456</codigoPostal>
+                    <provincia>Provincia X</provincia>
+                </direccion>
+                <correoElectronico>ana.ramirez@example.com</correoElectronico>
+            </cliente>
+            <fechaInclusion>2024-12-25</fechaInclusion>
+            <detallePedido>
+                <numeroPedido>7005</numeroPedido>
+                <fechaCompra>2022-01-10</fechaCompra>
+                <fechaEntrega>2022-01-15</fechaEntrega>
+                <totalFactura>95.00</totalFactura>
+                <productos>
+                    <producto>
+                        <nombre>Producto9</nombre>
+                        <referencia>PRD068</referencia>
+                        <precio>30.00</precio>
+                        <unidades>2</unidades>
+                    </producto>
+                </productos>
+            </detallePedido>
+        </pedido>
+        <pedido>
+            <cliente>
+                <nombre>Ana</nombre>
+                <apellidos>Ramírez</apellidos>
+                <telefono>555234567</telefono>
+                <direccion>
+                    <calle>Calle A4</calle>
+                    <ciudad>Ciudad A4</ciudad>
+                    <codigoPostal>23456</codigoPostal>
+                    <provincia>Provincia X</provincia>
+                </direccion>
+                <correoElectronico>ana.ramirez@example.com</correoElectronico>
+            </cliente>
+            <fechaInclusion>2022-01-05</fechaInclusion>
+            <detallePedido>
+                <numeroPedido>7006</numeroPedido>
+                <fechaCompra>2022-01-15</fechaCompra>
+                <fechaEntrega>2022-01-20</fechaEntrega>
+                <totalFactura>120.00</totalFactura>
+                <productos>
+                    <producto>
+                        <nombre>Producto9</nombre>
+                        <referencia>PRD069</referencia>
+                        <precio>40.00</precio>
+                        <unidades>2</unidades>
+                    </producto>
+                </productos>
+            </detallePedido>
+        </pedido>
+        <pedido>
+            <cliente>
+                <nombre>Javier</nombre>
+                <apellidos>López</apellidos>
+                <telefono>444789012</telefono>
+                <direccion>
+                    <calle>Calle B4</calle>
+                    <ciudad>Ciudad B4</ciudad>
+                    <codigoPostal>34567</codigoPostal>
+                    <provincia>Provincia W</provincia>
+                </direccion>
+                <correoElectronico>javier.lopez@example.com</correoElectronico>
+            </cliente>
+            <fechaInclusion>2022-01-10</fechaInclusion>
+            <detallePedido>
+                <numeroPedido>7007</numeroPedido>
+                <fechaCompra>2022-01-20</fechaCompra>
+                <fechaEntrega>2022-01-25</fechaEntrega>
+                <totalFactura>95.00</totalFactura>
+                <productos>
+                    <producto>
+                        <nombre>Producto10</nombre>
+                        <referencia>PRD070</referencia>
+                        <precio>30.00</precio>
+                        <unidades>2</unidades>
+                    </producto>
+                </productos>
+            </detallePedido>
+        </pedido>
+        <pedido>
+            <cliente>
+                <nombre>Javier</nombre>
+                <apellidos>López</apellidos>
+                <telefono>444789012</telefono>
+                <direccion>
+                    <calle>Calle B4</calle>
+                    <ciudad>Ciudad B4</ciudad>
+                    <codigoPostal>34567</codigoPostal>
+                    <provincia>Provincia W</provincia>
+                </direccion>
+                <correoElectronico>javier.lopez@example.com</correoElectronico>
+            </cliente>
+            <fechaInclusion>2022-02-05</fechaInclusion>
+            <detallePedido>
+                <numeroPedido>7008</numeroPedido>
+                <fechaCompra>2022-02-15</fechaCompra>
+                <fechaEntrega>2022-02-20</fechaEntrega>
+                <totalFactura>120.00</totalFactura>
+                <productos>
+                    <producto>
+                        <nombre>Producto9</nombre>
+                        <referencia>PRD071</referencia>
+                        <precio>40.00</precio>
+                        <unidades>2</unidades>
+                    </producto>
+                </productos>
+            </detallePedido>
+        </pedido>
+        <pedido>
+            <cliente>
+                <nombre>Javier</nombre>
+                <apellidos>López</apellidos>
+                <telefono>444789012</telefono>
+                <direccion>
+                    <calle>Calle B4</calle>
+                    <ciudad>Ciudad B4</ciudad>
+                    <codigoPostal>34567</codigoPostal>
+                    <provincia>Provincia W</provincia>
+                </direccion>
+                <correoElectronico>javier.lopez@example.com</correoElectronico>
+            </cliente>
+            <fechaInclusion>2022-02-05</fechaInclusion>
+            <detallePedido>
+                <numeroPedido>7009</numeroPedido>
+                <fechaCompra>2022-02-20</fechaCompra>
+                <fechaEntrega>2022-02-25</fechaEntrega>
+                <totalFactura>95.00</totalFactura>
+                <productos>
+                    <producto>
+                        <nombre>Producto10</nombre>
+                        <referencia>PRD072</referencia>
+                        <precio>30.00</precio>
+                        <unidades>2</unidades>
+                    </producto>
+                </productos>
+            </detallePedido>
+        </pedido>
+        <pedido>
+            <cliente>
+                <nombre>Javier</nombre>
+                <apellidos>López</apellidos>
+                <telefono>444789012</telefono>
+                <direccion>
+                    <calle>Calle B4</calle>
+                    <ciudad>Ciudad B4</ciudad>
+                    <codigoPostal>34567</codigoPostal>
+                    <provincia>Provincia W</provincia>
+                </direccion>
+                <correoElectronico>javier.lopez@example.com</correoElectronico>
+            </cliente>
+            <fechaInclusion>2022-02-05</fechaInclusion>
+            <detallePedido>
+                <numeroPedido>7010</numeroPedido>
+                <fechaCompra>2022-02-25</fechaCompra>
+                <fechaEntrega>2022-03-05</fechaEntrega>
+                <totalFactura>120.00</totalFactura>
+                <productos>
+                    <producto>
+                        <nombre>Producto2</nombre>
+                        <referencia>PRD073</referencia>
+                        <precio>40.00</precio>
+                        <unidades>2</unidades>
+                    </producto>
+                </productos>
+            </detallePedido>
+        </pedido>
+        </trimestre>
+
+
+
+
+
+        <trimestre trimestre="4">
+        <pedido>
+            <cliente>
+                <nombre>Diana</nombre>
+                <apellidos>Ramos</apellidos>
+                <telefono>555567890</telefono>
+                <direccion>
+                    <calle>Calle E4</calle>
+                    <ciudad>Ciudad E4</ciudad>
+                    <codigoPostal>67890</codigoPostal>
+                    <provincia>Provincia S</provincia>
+                </direccion>
+                <correoElectronico>diana.ramos@example.com</correoElectronico>
+            </cliente>
+            <fechaInclusion>2022-03-01</fechaInclusion>
+            <detallePedido>
+                <numeroPedido>8001</numeroPedido>
+                <fechaCompra>2022-03-10</fechaCompra>
+                <fechaEntrega>2022-03-15</fechaEntrega>
+                <totalFactura>95.00</totalFactura>
+                <productos>
+                    <producto>
+                        <nombre>Producto4</nombre>
+                        <referencia>PRD074</referencia>
+                        <precio>30.00</precio>
+                        <unidades>2</unidades>
+                    </producto>
+                </productos>
+            </detallePedido>
+        </pedido>
+        <pedido>
+            <cliente>
+                <nombre>Roberto</nombre>
+                <apellidos>Fernández</apellidos>
+                <telefono>444567890</telefono>
+                <direccion>
+                    <calle>Calle F4</calle>
+                    <ciudad>Ciudad F4</ciudad>
+                    <codigoPostal>78901</codigoPostal>
+                    <provincia>Provincia R</provincia>
+                </direccion>
+                <correoElectronico>roberto.fernandez@example.com</correoElectronico>
+            </cliente>
+            <fechaInclusion>2022-03-15</fechaInclusion>
+            <detallePedido>
+                <numeroPedido>8002</numeroPedido>
+                <fechaCompra>2022-03-25</fechaCompra>
+                <fechaEntrega>2022-03-30</fechaEntrega>
+                <totalFactura>120.00</totalFactura>
+                <productos>
+                    <producto>
+                        <nombre>Producto6</nombre>
+                        <referencia>PRD075</referencia>
+                        <precio>40.00</precio>
+                        <unidades>2</unidades>
+                    </producto>
+                </productos>
+            </detallePedido>
+        </pedido>
+        <pedido>
+            <cliente>
+                <nombre>Lorena</nombre>
+                <apellidos>Martínez</apellidos>
+                <telefono>555678901</telefono>
+                <direccion>
+                    <calle>Calle G4</calle>
+                    <ciudad>Ciudad G4</ciudad>
+                    <codigoPostal>12345</codigoPostal>
+                    <provincia>Provincia Q</provincia>
+                </direccion>
+                <correoElectronico>lorena.martinez@example.com</correoElectronico>
+            </cliente>
+            <fechaInclusion>2022-03-20</fechaInclusion>
+            <detallePedido>
+                <numeroPedido>8003</numeroPedido>
+                <fechaCompra>2022-03-30</fechaCompra>
+                <fechaEntrega>2022-04-05</fechaEntrega>
+                <totalFactura>95.00</totalFactura>
+                <productos>
+                    <producto>
+                        <nombre>Producto7</nombre>
+                        <referencia>PRD076</referencia>
+                        <precio>30.00</precio>
+                        <unidades>2</unidades>
+                    </producto>
+                </productos>
+            </detallePedido>
+        </pedido>
+        <pedido>
+            <cliente>
+                <nombre>Rosa</nombre>
+                <apellidos>Ortega</apellidos>
+                <telefono>444234567</telefono>
+                <direccion>
+                    <calle>Calle H4</calle>
+                    <ciudad>Ciudad H4</ciudad>
+                    <codigoPostal>23456</codigoPostal>
+                    <provincia>Provincia P</provincia>
+                </direccion>
+                <correoElectronico>rosa.ortega@example.com</correoElectronico>
+            </cliente>
+            <fechaInclusion>2022-04-05</fechaInclusion>
+            <detallePedido>
+                <numeroPedido>8004</numeroPedido>
+                <fechaCompra>2022-04-15</fechaCompra>
+                <fechaEntrega>2022-04-20</fechaEntrega>
+                <totalFactura>120.00</totalFactura>
+                <productos>
+                    <producto>
+                        <nombre>Producto8</nombre>
+                        <referencia>PRD077</referencia>
+                        <precio>40.00</precio>
+                        <unidades>2</unidades>
+                    </producto>
+                </productos>
+            </detallePedido>
+        </pedido>
+        <pedido>
+            <cliente>
+                <nombre>Julio</nombre>
+                <apellidos>Sánchez</apellidos>
+                <telefono>555345678</telefono>
+                <direccion>
+                    <calle>Calle I4</calle>
+                    <ciudad>Ciudad I4</ciudad>
+                    <codigoPostal>34567</codigoPostal>
+                    <provincia>Provincia O</provincia>
+                </direccion>
+                <correoElectronico>julio.sanchez@example.com</correoElectronico>
+            </cliente>
+            <fechaInclusion>2022-04-10</fechaInclusion>
+            <detallePedido>
+                <numeroPedido>8005</numeroPedido>
+                <fechaCompra>2022-04-20</fechaCompra>
+                <fechaEntrega>2022-04-25</fechaEntrega>
+                <totalFactura>95.00</totalFactura>
+                <productos>
+                    <producto>
+                        <nombre>Producto10</nombre>
+                        <referencia>PRD078</referencia>
+                        <precio>30.00</precio>
+                        <unidades>2</unidades>
+                    </producto>
+                </productos>
+            </detallePedido>
+        </pedido>
+        <pedido>
+            <cliente>
+                <nombre>Julio</nombre>
+                <apellidos>Sánchez</apellidos>
+                <telefono>555345678</telefono>
+                <direccion>
+                    <calle>Calle I4</calle>
+                    <ciudad>Ciudad I4</ciudad>
+                    <codigoPostal>34567</codigoPostal>
+                    <provincia>Provincia O</provincia>
+                </direccion>
+                <correoElectronico>julio.sanchez@example.com</correoElectronico>
+            </cliente>
+            <fechaInclusion>2022-04-15</fechaInclusion>
+            <detallePedido>
+                <numeroPedido>8006</numeroPedido>
+                <fechaCompra>2022-04-25</fechaCompra>
+                <fechaEntrega>2022-04-30</fechaEntrega>
+                <totalFactura>120.00</totalFactura>
+                <productos>
+                    <producto>
+                        <nombre>Producto1</nombre>
+                        <referencia>PRD079</referencia>
+                        <precio>40.00</precio>
+                        <unidades>2</unidades>
+                    </producto>
+                </productos>
+            </detallePedido>
+        </pedido>
+        <pedido>
+            <cliente>
+                <nombre>Julio</nombre>
+                <apellidos>Sánchez</apellidos>
+                <telefono>555345678</telefono>
+                <direccion>
+                    <calle>Calle I4</calle>
+                    <ciudad>Ciudad I4</ciudad>
+                    <codigoPostal>34567</codigoPostal>
+                    <provincia>Provincia O</provincia>
+                </direccion>
+                <correoElectronico>julio.sanchez@example.com</correoElectronico>
+            </cliente>
+            <fechaInclusion>2022-05-01</fechaInclusion>
+            <detallePedido>
+                <numeroPedido>8007</numeroPedido>
+                <fechaCompra>2022-05-10</fechaCompra>
+                <fechaEntrega>2022-05-15</fechaEntrega>
+                <totalFactura>95.00</totalFactura>
+                <productos>
+                    <producto>
+                        <nombre>Producto4</nombre>
+                        <referencia>PRD080</referencia>
+                        <precio>30.00</precio>
+                        <unidades>2</unidades>
+                    </producto>
+                </productos>
+            </detallePedido>
+        </pedido>
+        <pedido>
+            <cliente>
+                <nombre>Carolina</nombre>
+                <apellidos>García</apellidos>
+                <telefono>444456789</telefono>
+                <direccion>
+                    <calle>Calle J4</calle>
+                    <ciudad>Ciudad J4</ciudad>
+                    <codigoPostal>45678</codigoPostal>
+                    <provincia>Provincia N</provincia>
+                </direccion>
+                <correoElectronico>carolina.garcia@example.com</correoElectronico>
+            </cliente>
+            <fechaInclusion>2022-05-05</fechaInclusion>
+            <detallePedido>
+                <numeroPedido>8008</numeroPedido>
+                <fechaCompra>2022-05-15</fechaCompra>
+                <fechaEntrega>2022-05-20</fechaEntrega>
+                <totalFactura>120.00</totalFactura>
+                <productos>
+                    <producto>
+                        <nombre>Producto7</nombre>
+                        <referencia>PRD081</referencia>
+                        <precio>40.00</precio>
+                        <unidades>2</unidades>
+                    </producto>
+                </productos>
+            </detallePedido>
+        </pedido>
+        <pedido>
+            <cliente>
+                <nombre>Carolina</nombre>
+                <apellidos>García</apellidos>
+                <telefono>444456789</telefono>
+                <direccion>
+                    <calle>Calle J4</calle>
+                    <ciudad>Ciudad J4</ciudad>
+                    <codigoPostal>45678</codigoPostal>
+                    <provincia>Provincia N</provincia>
+                </direccion>
+                <correoElectronico>carolina.garcia@example.com</correoElectronico>
+            </cliente>
+            <fechaInclusion>2022-05-10</fechaInclusion>
+            <detallePedido>
+                <numeroPedido>8009</numeroPedido>
+                <fechaCompra>2022-05-20</fechaCompra>
+                <fechaEntrega>2022-05-25</fechaEntrega>
+                <totalFactura>95.00</totalFactura>
+                <productos>
+                    <producto>
+                        <nombre>Producto8</nombre>
+                        <referencia>PRD082</referencia>
+                        <precio>30.00</precio>
+                        <unidades>2</unidades>
+                    </producto>
+                </productos>
+            </detallePedido>
+        </pedido>
+        </trimestre>
+    </año>
+</webPedidos>
